@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <script type="text/javascript" src="../assets/js/helper.js"></script>
+    <script type="text/javascript">
+      function visibility_on(id) {
+        var e = document.getElementById(id + "_text");
+        if (e.style.display == "none") e.style.display = "block";
+        var e = document.getElementById(id + "_img");
+        if (e.style.display == "none") e.style.display = "block";
+      }
+      function visibility_off(id) {
+        var e = document.getElementById(id + "_text");
+        if (e.style.display == "block") e.style.display = "none";
+        var e = document.getElementById(id + "_img");
+        if (e.style.display == "block") e.style.display = "none";
+      }
+      function toggle_visibility(id) {
+        var e = document.getElementById(id + "_text");
+        if (e.style.display == "inline") e.style.display = "block";
+        else e.style.display = "inline";
+        var e = document.getElementById(id + "_img");
+        if (e.style.display == "inline") e.style.display = "block";
+        else e.style.display = "inline";
+      }
+      function toggle_vis(id) {
+        var e = document.getElementById(id + "_text");
+        if (e.style.display == "none") e.style.display = "block";
+        else e.style.display = "none";
+      }
+    </script>
+    <title>Yuxiao Qu - Education</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="is-preload" onload="loadPublications()">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="../index.html" class="logo"><strong>Yuxiao Qu</strong></a>
+          </header>
+
+          <!-- Banner -->
+          <section id="banner">
+            <div class="content">
+              <header>
+                <h1>Publications</h1>
+              </header>
+              <p>
+                Jump to Year:&nbsp;
+                <a href="#2023">[2023]</a>&nbsp;
+                <a href="#2022">[2022]</a>&nbsp;
+                <a href="#2021">[2021]</a>&nbsp;
+              </p>
+              <p></p>
+              <div id="2023"></div>
+              <div id="2022"></div>
+              <div id="2021"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div class="inner">
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+            <ul>
+              <li><a href="../index.html">Homepage</a></li>
+              <li><a href="../content/publication.html">Publication</a></li>
+              <!-- <li>
+                <span class="opener">Projects</span>
+                <ul>
+                  <li><a href="#">Lorem Dolor</a></li>
+                  <li><a href="#">Ipsum Adipiscing</a></li>
+                  <li><a href="#">Tempus Magna</a></li>
+                  <li><a href="#">Feugiat Veroeros</a></li>
+                </ul>
+              </li> -->
+              <li><a href="../documents/CV.pdf">CV</a></li>
+            </ul>
+          </nav>
+
+          <!-- Footer -->
+          <footer id="footer">
+            <p class="copyright">
+              &copy; Yuxiao Qu. All rights reserved. Design:
+              <a href="https://html5up.net">HTML5 UP</a> and Yuxiao Qu.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script stc="../assets/js/helper.js"></script>
+  </body>
+</html>

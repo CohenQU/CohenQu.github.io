@@ -1,0 +1,10 @@
+{
+  "aspdac2021treenet": {
+    "title": "TreeNet: Deep Point Cloud Embedding for Routing Tree Construction.",
+    "authors": ["Wei Li", "Yuxiao Qu", "Gengjie Chen", "Yuzhe Ma", "Bei Yu"],
+    "conference": "2021 26th Asia and South Pacific Design Automation Conference (ASP-DAC)",
+    "award": "Best Paper Award",
+    "date": "January 2021",
+    "abstract": "In the routing tree construction, both wirelength (WL) and path-length (PL) are of importance. Among all methods, PD-II and SALT are the two most prominent ones. However, neither PD-II nor SALT always dominates the other one in terms of both WL and PL for all nets. In addition, estimating the best parameters for both algorithms is still an open problem. In this paper, we model the pins of a net as point cloud and formalize a set of special properties of such point cloud. Considering these properties, we propose a novel deep neural net architecture, TreeNet, to obtain the embedding of the point cloud. Based on the obtained cloud embedding, an adaptive workflow is designed for the routing tree construction. Experimental results show that the proposed TreeNet is superior to other mainstream models for the point cloud on classification tasks. Moreover, the proposed adaptive workflow for the routing tree construction outperforms SALT and PD-II in terms of both efficiency and effectiveness."
+  }
+}

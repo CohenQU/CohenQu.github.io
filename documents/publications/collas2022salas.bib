@@ -1,0 +1,27 @@
+@inproceedings{corrado2022salas,
+  title={Simulation-Acquired Latent Action Spaces for Dynamics Generalization},
+  author={Nicholas Corrado and Yuxiao Qu and Josiah P. Hanna},
+  year={2022},
+  booktitle={Proceedings of the 1st Conference on Lifelong Learning Agents (CoLLAs)},
+  month={August},
+  abstract={
+  Deep reinforcement learning has shown incredible promise at training 
+  high-performing agents to solve high-dimensional continuous control tasks in 
+  a particular training environment. However, to be useful in real-world 
+  settings, long-lived agents must perform well across a range of environmental 
+  conditions. Naively applying deep RL to a task where environment conditions 
+  may vary from episode to episode can be data inefficient. To address this 
+  inefficiency, we introduce a method that discovers structure in an agentâ€™s 
+  high-dimensional continuous action space to speed up learning across a range 
+  of environmental conditions. Whereas prior work on finding so-called latent 
+  action spaces requires expert demonstrations or on-task experience, we instead 
+  propose to discover the latent, lower-dimensional action space in a simulated 
+  environment and then transfer the learned action space for training over a 
+  distribution of environments. We evaluate our novel method on randomized 
+  variants of simulated MuJoCo environments and find that, when there is a 
+  lower-dimensional action space to exploit, our method significantly increases 
+  data efficiency. For instance, in the Ant environment, our method reduces the 
+  8-dimensional action space to a 3-dimensional action space and doubles the 
+  median return achieved after a training budget of 2 million timesteps.},
+  wwwnote={<a href="https://drive.google.com/file/d/1XekiPeMgcxauEaJAOT-shn0F088R-kj6/view">Video Presentation<a>}
+}
