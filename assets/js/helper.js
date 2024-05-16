@@ -25,7 +25,7 @@ function toggle_vis(id) {
 }
 
 function loadPublications() {
-  for (var i = 2023; i >= 2021; i--) {
+  for (var i = 2024; i >= 2021; i--) {
     var filepath = "../documents/meta/" + i + ".json";
     fetchJSON(filepath, i);
   }
