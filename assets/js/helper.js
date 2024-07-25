@@ -75,6 +75,24 @@ function embedJSONInHTML(json, year) {
 
     html += "<br />";
 
+    if ("arxiv" in json[key]) {
+      var arxiv_ref = json[key]["arxiv"];
+      html += "<a href=" + arxiv_ref + "> Arxiv </a>";
+      html += "&nbsp;&nbsp;&nbsp;";
+    }
+
+    if ("website" in json[key]) {
+      var website_ref = json[key]["website"];
+      html += "<a href=" + website_ref + "> Website </a>";
+      html += "&nbsp;&nbsp;&nbsp;";
+    }
+
+    if ("video" in json[key]) {
+      var video_ref = json[key]["video"];
+      html += "<a href=" + video_ref + "> Video </a>";
+      html += "&nbsp;&nbsp;&nbsp;";
+    }
+
     var abstract_ref = "\"javascript:toggle_vis('" + key + "');\"";
     html += "<a href=" + abstract_ref + "> Abstract </a>";
     html += "&nbsp;&nbsp;&nbsp;";
