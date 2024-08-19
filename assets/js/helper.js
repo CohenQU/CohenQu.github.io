@@ -81,6 +81,12 @@ function embedJSONInHTML(json, year) {
       html += "&nbsp;&nbsp;&nbsp;";
     }
 
+    if ("code" in json[key]) {
+      var code_ref = json[key]["code"];
+      html += "<a href=" + code_ref + "> Code </a>";
+      html += "&nbsp;&nbsp;&nbsp;";
+    }
+
     if ("website" in json[key]) {
       var website_ref = json[key]["website"];
       html += "<a href=" + website_ref + "> Website </a>";
