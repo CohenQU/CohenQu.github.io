@@ -25,7 +25,7 @@ function toggle_vis(id) {
 }
 
 function loadPublications() {
-  for (var i = 2024; i >= 2021; i--) {
+  for (var i = 2025; i >= 2021; i--) {
     var filepath = "../documents/meta/" + i + ".json";
     fetchJSON(filepath, i);
   }
@@ -103,12 +103,12 @@ function embedJSONInHTML(json, year) {
     html += "<a href=" + abstract_ref + "> Abstract </a>";
     html += "&nbsp;&nbsp;&nbsp;";
 
-    var bibtex_ref = '"../documents/publications/' + key + '.bib"';
-    html += "<a href=" + bibtex_ref + "> BibTeX </a>";
-    html += "&nbsp;&nbsp;&nbsp;";
+    // var bibtex_ref = '"../documents/publications/' + key + '.bib"';
+    // html += "<a href=" + bibtex_ref + "> BibTeX </a>";
+    // html += "&nbsp;&nbsp;&nbsp;";
 
-    var pdf_ref = '"../documents/publications/' + key + '.pdf"';
-    html += "<a href=" + pdf_ref + "> PDF </a>";
+    // var pdf_ref = '"../documents/publications/' + key + '.pdf"';
+    // html += "<a href=" + pdf_ref + "> PDF </a>";
 
     html += "<br />";
     var id = '"' + key + '_text"';
