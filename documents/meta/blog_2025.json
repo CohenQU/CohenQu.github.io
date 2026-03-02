@@ -16,8 +16,8 @@
   "qu2025pope": {
     "title": "How to Explore to Scale RL Training of LLMs on Hard Problems?",
     "authors": [
-      "Yuxiao Qu",
-      "Amrith Setlur",
+      "Yuxiao Qu*",
+      "Amrith Setlur*",
       "Virginia Smith",
       "Ruslan Salakhutdinov",
       "Aviral Kumar"
