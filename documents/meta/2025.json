@@ -1,4 +1,35 @@
 {
+  "liu2025cartteachingllmagents": {
+    "title": "CaRT: Teaching LLM Agents to Know When They Know Enough",
+    "authors": [
+      "Grace Liu*",
+      "Yuxiao Qu*",
+      "Jeff Schneider",
+      "Aarti Singh",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv:2510.08517",
+    "date": "October 2025",
+    "abstract": "Many tasks require learned models to strategically gather relevant information over multiple rounds of interaction before actually acting on a task. Strategic information gathering requires models to know not only how to effectively acquire information, but also when to stop gathering information and make a decision, in order to avoid overthinking or getting derailed when acting. In this paper, we formalize this problem and introduce Counterfactuals and Reasoning for Termination (CaRT), an approach for teaching LLMs when to stop seeking information. To appropriately learn when to terminate, CaRT fine-tunes LLMs using counterfactual pairs of trajectories, one where termination is appropriate and a minimally modified version of the same trajectory where it is not. It trains the LLM to explain the rationale for the termination decision in either case via verbal reasoning, and imbues this capability into the base LLM via fine-tuning. We instantiate CaRT in two domains: interactive medical diagnosis and math problem solving. In both domains, we find that CaRT improves the efficiency of information gathering and task success rate compared to other fine-tuning methods.",
+    "arxiv": "https://arxiv.org/abs/2510.08517"
+  },
+  "qu2025rladtrainingllmsdiscover": {
+    "title": "RLAD: Training LLMs to Discover Abstractions for Solving Reasoning Problems",
+    "authors": [
+      "Yuxiao Qu*",
+      "Anikait Singh*",
+      "Yoonho Lee*",
+      "Amrith Setlur",
+      "Ruslan Salakhutdinov",
+      "Chelsea Finn",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv:2510.02263",
+    "date": "October 2025",
+    "abstract": "Reasoning requires going beyond pattern matching or memorization of solutions to identify and implement \"algorithmic procedures\" that can be used to deduce answers to hard problems. Doing so requires realizing the most relevant primitives, intermediate results, or shared procedures, and building upon them. While RL post-training on long chains of thought ultimately aims to uncover this kind of algorithmic behavior, most reasoning traces learned by large models fail to consistently capture or reuse procedures, instead drifting into verbose and degenerate exploration. To address more effective reasoning, we introduce reasoning abstractions: concise natural language descriptions of procedural and factual knowledge that guide the model toward learning successful reasoning. We train models to be capable of proposing multiple abstractions given a problem, followed by RL that incentivizes building a solution while using the information provided by these abstractions. This results in a two-player RL training paradigm, abbreviated as RLAD, that jointly trains an abstraction generator and a solution generator. This setup effectively enables structured exploration, decouples learning signals of abstraction proposal and solution generation, and improves generalization to harder problems. We also show that allocating more test-time compute to generating abstractions is more beneficial for performance than generating more solutions at large test budgets, illustrating the role of abstractions in guiding meaningful exploration.",
+    "website": "https://cohenqu.github.io/rlad.github.io/",
+    "arxiv": "https://arxiv.org/abs/2510.02263"
+  },
   "qu2025optimizingtesttimecomputemeta": {
     "title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning",
     "authors": [

@@ -25,10 +25,55 @@ function toggle_vis(id) {
 }
 
 function loadPublications() {
-  for (var i = 2025; i >= 2021; i--) {
+  for (var i = 2026; i >= 2021; i--) {
     var filepath = "../documents/meta/" + i + ".json";
     fetchJSON(filepath, i);
   }
+}
+
+function loadBlogs() {
+  var years = [2026, 2025];
+  for (var i = 0; i < years.length; i++) {
+    var filepath = "../documents/meta/blog_" + years[i] + ".json";
+    fetchBlogJSON(filepath, years[i]);
+  }
+}
+
+function fetchBlogJSON(filepath, year) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", filepath, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      var json = JSON.parse(xhr.responseText);
+      embedBlogInHTML(json, year.toString());
+    }
+  };
+  xhr.send();
+}
+
+function embedBlogInHTML(json, year) {
+  var html = '<h2><a name="' + year + '">' + year + "</a></h2>";
+  for (var key in json) {
+    var entry = json[key];
+    html += '<a href="' + entry["url"] + '"><b>' + entry["title"] + "</b></a>";
+    html += "<br />";
+
+    var names = entry["authors"];
+    for (var i = 0; i < names.length; i++) {
+      var name = names[i];
+      if (name === "Yuxiao Qu" || name === "Yuxiao Qu*") {
+        html += "<b>" + name + "</b>, ";
+      } else {
+        html += name + ", ";
+      }
+    }
+    html = html.slice(0, -2) + ".";
+    html += "<br />";
+
+    html += "<i>" + entry["venue"] + "</i>. " + entry["date"] + ".";
+    html += "<br /><br />";
+  }
+  document.getElementById(year).innerHTML = html;
 }
 
 function fetchJSON(filepath, year) {

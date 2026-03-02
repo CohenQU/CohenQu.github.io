@@ -1,0 +1,143 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,roman,colorlinks=true,urlcolor=brown]{moderncv}
+
+% moderncv themes
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+%\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+% page geometry
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\name{Yuxiao}{Qu}
+\homepage{cohenqu.github.io}
+\extrainfo{Google Scholar: \url{https://scholar.google.com/citations?user=X5SFuyYAAAAJ\&hl=en}}
+
+% bibliography style
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\vspace{-1.4cm}
+
+% \section{Research Interests}
+% My research focuses on the intersection of reinforcement learning and foundation models. I am passionate about developing innovative algorithms and scalable systems to tackle diverse decision-making challenges in complex reasoning and agentic environments. I am especially interested in test-time compute optimization, generalization through abstraction, and combining supervised and reinforcement learning for large language models.
+
+\section{Education}
+\cventry{May 2024 - Present}{PhD in Machine Learning}{Carnegie Mellon University}{Pittsburgh, PA}{4.22/4.33}{Advisor: \href{https://aviralkumar2907.github.io/}{Aviral Kumar} \& \href{https://www.cs.cmu.edu/~rsalakhu/}{Ruslan Salakhutdinov}}
+\vspace{0.2cm}
+\cventry{Aug 2023 - Present}{Master of Science in Machine Learning }{Carnegie Mellon University}{Pittsburgh, PA}{4.28/4.33}{Advisor: \href{https://aviralkumar2907.github.io/}{Aviral Kumar}}
+\vspace{0.2cm}
+\cventry{Sep 2020 – Dec 2022}{Bachelor of Science in Computer Science and Mathematics}{University of Wisconsin - Madison}{Madison, WI}{4.00/4.00}{}
+\vspace{0.2cm}
+\cventry{Sep 2017 – May 2020}{Major: Computer Science}{The Chinese University of Hong Kong}{Sha Tin, Hong Kong}{}{}
+
+\section{Working Experiences}
+\cventry{Apr 2023 – Aug 2023}{Research Software Engineer}{Morgridge Institute for Research}{Madison, WI}{}{}
+\cventry{Nov 2025 – Present}{Research Intern}{NVIDIA}{Remote}{}{}
+
+\section{Awards and Fellowships}
+\begin{itemize}
+    \item 2025 Amazon PhD Fellowship In AI \hfill 2025
+    \item 2025 Qualcomm Innovation Fellowship (\textit{Finalist}) \hfill 2025
+    \item 2021 ICPC North Central NA Regional Contest (\textit{Rank 19th}) \hfill 2021
+    \item Professor Charles K. Kao Research Exchange Scholarship \hfill 2021
+    \item Best Project Award in Undergraduate Summer Research Internship \hfill 2019
+\end{itemize}
+
+
+\section{Publications}
+(* indicates Equal Contribution)
+\begin{enumerate}
+    \item \textbf{Learning to Reason on Hard Problems with Privileged On-Policy Exploration}\\
+    \textbf{Yuxiao Qu}*, Amrith Setlur*, Virginia Smith, Ruslan Salakhutdinov, Aviral Kumar\\
+    \textcolor{red}{\textit{Oral}} at 5th MATH-AI Workshop, NeurIPS 2025
+    \item \textbf{CaRT: Teaching LLM Agents to Know When They Know Enough}\\
+    Grace Liu*, \textbf{Yuxiao Qu}*, Jeff Schneider, Aarti Singh, Aviral Kumar
+    \item \textbf{Learning to Discover Abstractions for LLM Reasoning}\\
+    \textbf{Yuxiao Qu}*, Anikait Singh*, Yoonho Lee*, Amrith Setlur, Ruslan Salakhutdinov, Chelsea Finn, Aviral Kumar\\
+    \textcolor{red}{\textit{Spotlight}} at Workshop on Efficient Systems for Foundation Models, ICML 2025\\
+    \textcolor{red}{\textit{Oral}} at RAM 2: Reasoning, Attention \& Memory – 10 Years On, COLM 2025
+    \item \textbf{Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning}\\
+    \textbf{Yuxiao Qu}*, Matthew Y.R. Yang*, Amrith Setlur, Lewis Tunstall, Edward Emanuel Beeching, Ruslan Salakhutdinov, Aviral Kumar
+    \\
+    \textcolor{red}{\textit{Oral}} at Workshop on Foundation Models in the Wild, ICLR 2025\\
+    International Conference on Machine Learning (ICML), 2025
+    \item \textbf{Harnessing Webpage UIs for Text-Rich Visual Understanding}\\
+    Junpeng Liu, Tianyue Ou*, Yifan Song*, \textbf{Yuxiao Qu}*, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
+    \\
+    International Conference on Learning Representations(ICLR), 2025
+    \item \textbf{Recursive Introspection: Teaching Language Model Agents How to Self-Improve}\\
+    \textbf{Yuxiao Qu}, Tianjun Zhang, Naman Garg, Aviral Kumar
+    \\
+    \textcolor{red}{\textit{Oral}} at Workshop on Large Language Models and Cognition, ICML 2024\\
+    Advances in Neural Information Processing Systems (NeurIPS), 2024
+    \item \textbf{Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning}\\
+    Nicholas E. Corrado, \textbf{Yuxiao Qu}, John U. Balis, Adam Labiosa, Josiah P. Hanna
+    \\
+    Reinforcement Learning Conference (RLC), 2024
+    \item \textbf{FLEE-GNN: A Federated Learning System for Edge-Enhanced Graph Neural Network in Analyzing Geospatial Resilience of Multicommodity Food Flows}\\
+    \textbf{Yuxiao Qu}, Jinmeng Rao, Song Gao, Qianheng Zhang, Wei-Lun Chao, Yu Su, Michelle Miller, Alfonso Morales, Patrick Huber\\
+    ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery, 2023
+    \item \textbf{Simulation-Acquired Latent Action Spaces for Dynamics Generalization}\\
+    Nicholas E. Corrado, \textbf{Yuxiao Qu}, Josiah P. Hanna\\
+    Proceedings of Machine Learning Research (PMLR), 2022
+    \item \textbf{Polite or Direct? Conversation Design of a Smart Display for Older Adults Based on Politeness Theory}\\
+    Yaxin Hu, \textbf{Yuxiao Qu}, Adam Maus, Bilge Mutlu\\
+    ACM CHI Conference on Human Factors in Computing Systems (CHI), 2022
+    \item \textbf{TreeNet: Deep Point Cloud Embedding for Routing Tree Construction}\\
+    Wei Li, \textbf{Yuxiao Qu}, Gengjie Chen, Yuzhe Ma, Bei Yu\\
+    \textcolor{red}{\textit{Best Paper Award}} at ACM Asian and South Pacific Design Automation Conference (ASPDAC), 2021
+\end{enumerate}
+
+\section{Research Blog Posts}
+\begin{enumerate}
+    \item \textbf{IsoCompute Playbook: Optimally Scaling Sampling Compute for RL Training of LLMs} \hfill 2026\\
+    Zhoujun Cheng*, Yutao Xie*, \textbf{Yuxiao Qu}*, Amrith Setlur*, Shibo Hao, Varad Pimpalkhute, Tongtong Liang, Feng Yao, Hector Liu, Eric Xing, Virginia Smith, Ruslan Salakhutdinov, Zhiting Hu, Taylor Killian, Aviral Kumar\\
+    \href{https://compute-optimal-rl-llm-scaling.github.io/}{Blog Post}
+    \item \textbf{QED-Nano: Teaching a Tiny Model to Prove Hard Theorems} \hfill 2026\\
+    LM-Provers, \textbf{Yuxiao Qu}, Amrith Setlur, Jasper Dekoninck, Edward Beeching, Jia Li, Ian Wu, Lewis Tunstall, Aviral Kumar\\
+    \href{https://huggingface.co/spaces/lm-provers/qed-nano-blogpost}{Blog Post}
+    \item \textbf{How to Explore to Scale RL Training of LLMs on Hard Problems?} \hfill November 2025\\
+    \textbf{Yuxiao Qu}, Amrith Setlur, Virginia Smith, Ruslan Salakhutdinov, Aviral Kumar\\
+    \href{https://blog.ml.cmu.edu/2025/11/26/how-to-explore-to-scale-rl-training-of-llms-on-hard-problems/}{ML@CMU}
+    \item \textbf{Optimizing LLM Test-Time Compute Involves Solving a Meta-RL Problem} \hfill January 2025\\
+    Amrith Setlur, \textbf{Yuxiao Qu}, Matthew Yang, Lunjun Zhang, Virginia Smith, Aviral Kumar\\
+    \href{https://blog.ml.cmu.edu/2025/01/08/optimizing-llm-test-time-compute-involves-solving-a-meta-rl-problem/}{ML@CMU}
+\end{enumerate}
+
+\section{Teaching Experiences}
+% \subsection{Teaching Assistant}
+\begin{itemize}
+    \item COMP SCI 577: Introduction to Algorithms (\textit{Honor Session}) \hfill Fall 2022
+    \item COMP SCI 537: Introduction to Operating Systems \hfill Fall 2022
+\end{itemize}
+% \subsection{Employment}
+% \cventry{Apr 2023 – Aug 2023}{Research Software Engineer}{Morgridge Institute for Research}{Madison, WI}{}{}
+
+% \section{Research Mentoring}
+% % \subsection{Undergraduate & Masters Students}
+% \begin{itemize}
+%     \item Lehong Wu (2025-; Peking University)
+% \end{itemize}
+\section{Professional Service}
+\begin{itemize}
+    \item Reviewer for ICML (2024-2025), NeurIPS (2024-2025), AISTATS (2025), ICLR (2025-2026)
+\end{itemize}
+
+
+\end{document}

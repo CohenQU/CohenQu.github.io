@@ -1,0 +1,42 @@
+{
+  "cheng2026isocompute": {
+    "title": "IsoCompute Playbook: Optimally Scaling Sampling Compute for RL Training of LLMs",
+    "authors": [
+      "Zhoujun Cheng*",
+      "Yutao Xie*",
+      "Yuxiao Qu*",
+      "Amrith Setlur*",
+      "Shibo Hao",
+      "Varad Pimpalkhute",
+      "Tongtong Liang",
+      "Feng Yao",
+      "Hector Liu",
+      "Eric Xing",
+      "Virginia Smith",
+      "Ruslan Salakhutdinov",
+      "Zhiting Hu",
+      "Taylor Killian",
+      "Aviral Kumar"
+    ],
+    "venue": "Blog Post",
+    "url": "https://compute-optimal-rl-llm-scaling.github.io/",
+    "date": "2026"
+  },
+  "qednano2026": {
+    "title": "QED-Nano: Teaching a Tiny Model to Prove Hard Theorems",
+    "authors": [
+      "LM-Provers",
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Jasper Dekoninck",
+      "Edward Beeching",
+      "Jia Li",
+      "Ian Wu",
+      "Lewis Tunstall",
+      "Aviral Kumar"
+    ],
+    "venue": "Blog Post",
+    "url": "https://huggingface.co/spaces/lm-provers/qed-nano-blogpost",
+    "date": "2026"
+  }
+}

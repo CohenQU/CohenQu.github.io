@@ -1,0 +1,29 @@
+{
+  "setlur2025opt": {
+    "title": "Optimizing LLM Test-Time Compute Involves Solving a Meta-RL Problem",
+    "authors": [
+      "Amrith Setlur",
+      "Yuxiao Qu",
+      "Matthew Yang",
+      "Lunjun Zhang",
+      "Virginia Smith",
+      "Aviral Kumar"
+    ],
+    "venue": "CMU MLD Blog",
+    "url": "https://blog.ml.cmu.edu/2025/01/08/optimizing-llm-test-time-compute-involves-solving-a-meta-rl-problem/",
+    "date": "January 2025"
+  },
+  "qu2025pope": {
+    "title": "How to Explore to Scale RL Training of LLMs on Hard Problems?",
+    "authors": [
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Virginia Smith",
+      "Ruslan Salakhutdinov",
+      "Aviral Kumar"
+    ],
+    "venue": "CMU MLD Blog",
+    "url": "https://blog.ml.cmu.edu/2025/11/26/how-to-explore-to-scale-rl-training-of-llms-on-hard-problems/",
+    "date": "November 2025"
+  }
+}
